@@ -497,11 +497,11 @@ func main() {
 
 # 51. **Как проверить, какой тип находится за интерфейсом?**
    - Используйте оператор type assertion:
-    ```go
-    if t, ok := iface.(MyType); ok {
-        fmt.Println("Type is MyType:", t)
-    }
-    ```
+```go
+if t, ok := iface.(MyType); ok {
+    fmt.Println("Type is MyType:", t)
+}
+```
 
 [Вопросы](#список-вопросов-к-зачету)
 
